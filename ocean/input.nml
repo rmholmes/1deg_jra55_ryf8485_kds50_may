@@ -200,7 +200,6 @@
     barotropic_split = 80
     cmip_units = .true.
     debug = .false.
-    dt_ocean = 5400
     io_layout = 4, 3
     layout = 16, 15
     surface_height_split = 1
