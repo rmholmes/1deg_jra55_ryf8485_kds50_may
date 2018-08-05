@@ -102,6 +102,14 @@ MOM5 JRA-RYF
 # Temperature-binned heat transports (for numerical mixing):
 "ocean_model","temp_xflux_adv_on_nrho","temp_xflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
 "ocean_model","temp_yflux_adv_on_nrho","temp_yflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_xflux_submeso_on_nrho","temp_xflux_submeso_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_yflux_submeso_on_nrho","temp_yflux_submeso_on_nrho", "ocean_wmass","all",.true.,"none",2
+
+# Neutral diffusion lateral fluxes:
+"ocean_model","temp_xflux_ndiffuse_on_nrho","temp_xflux_ndiffuse_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_yflux_ndiffuse_on_nrho","temp_yflux_ndiffuse_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_xflux_gm_on_nrho","temp_xflux_gm_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_yflux_gm_on_nrho","temp_yflux_gm_on_nrho", "ocean_wmass","all",.true.,"none",2
 
 # To close volume budget, also need P-E+R T-binned:
 "ocean_model","mass_pmepr_on_nrho","mass_pmepr_on_nrho","ocean_wmass","all",.true.,"none",2
